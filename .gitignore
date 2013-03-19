@@ -14,3 +14,7 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.html
+/.gitignore
+/config/database.yml
+Gemfile
+Gemfile.lock
