@@ -3,7 +3,10 @@ window.MyDashboard =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
+  init: -> 
+    new MyDashboard.Routers.Tasks()
+    Backbone.history.start()
 
 $(document).ready ->
-  MyDashboard.initialize()
+  MyDashboard.init()
+ 

@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 gem 'jquery_datepicker'
 gem 'therubyracer'
+gem 'execjs'
 
 gem 'haml'
 
