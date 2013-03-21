@@ -1,3 +1,16 @@
 <h2>My Tasks</h2>
 
-<%= @tasks.length if @tasks %>
+<form id="new_task">
+	<input type="text" name="name"         placeholder="Enter Name of Task" id="new_task_name">
+  <input type="text" name="description"  placeholder="Enter Description"  id="new_task_description">
+  <input type="submit" value="Add" class="btn btn-medium btn-primary">
+</form>
+
+<table class="table table" id="tasks">
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Date</th>
+    <th></th>
+  </tr>
+</table>
