@@ -1,17 +1,19 @@
 class MyDashboard.Routers.Tasks extends Backbone.Router
 
-  initialize: -> 
-    @tasks =  new MyDashboard.Collections.Tasks()
-    @tasks.fetch()
-
   routes:
     ""              : "index"
     "tasks/new"     : "new"
     "tasks/:id"     : "show"
     "tasks/:id/edit": "edit"
 
+  initialize: -> 
+    @tasks =  new MyDashboard.Collections.Tasks()
+    @tasks.fetch()
+
   index: ->
-    view = new MyDashboard.Views.TasksIndex({collection: @tasks})
+    # view = new MyDashboard.Views.TasksIndex({collection: @tasks})
+    view = new MyDashboard.Views.TasksIndex
+    view.collection = @tasks
     $('#container').html(view.render().el)
 
   new: ->

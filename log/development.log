@@ -7290,3 +7290,1771 @@ Started GET "/api/tasks" for 127.0.0.1 at 2013-03-20 19:22:39 +0530
 Processing by TasksController#index as JSON
   [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks" 
 Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:35:25 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Compiled views/tasks/tasks_index.js  (185ms)  (pid 6453)
+Compiled application.js  (8ms)  (pid 6453)
+Completed 200 OK in 750ms (Views: 749.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:35:25 +0530
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /underscore.js - 200 OK (6ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /backbone.js - 200 OK (6ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /my_dashboard.js - 200 OK (1ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks/edit.js - 200 OK (2ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks/index.js - 200 OK (2ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks/new.js - 200 OK (1ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks/show.js - 200 OK (2ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks/task.js - 200 OK (2ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /models/task.js - 200 OK (2ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /collections/tasks.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /views/tasks/tasks_edit.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /views/tasks/tasks_index.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /views/tasks/tasks_new.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /views/tasks/tasks_show.js - 200 OK (1ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /routers/tasks_router.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /tasks.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Served asset /application.js - 200 OK (42ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:35:26 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (7.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+  [1m[35mEXPLAIN (14.3ms)[0m  EXPLAIN SELECT "tasks".* FROM "tasks" 
+EXPLAIN for: SELECT "tasks".* FROM "tasks" 
+                        QUERY PLAN
+----------------------------------------------------------
+ Seq Scan on tasks  (cost=0.00..11.30 rows=130 width=577)
+(1 row)
+
+Completed 200 OK in 1065ms (Views: 88.8ms | ActiveRecord: 891.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled views/tasks/tasks_index.js  (7ms)  (pid 6453)
+Compiled application.js  (8ms)  (pid 6453)
+Completed 200 OK in 172ms (Views: 172.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /backbone.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /collections/tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /views/tasks/tasks_index.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:36:10 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled views/tasks/tasks_index.js  (6ms)  (pid 6453)
+Compiled application.js  (7ms)  (pid 6453)
+Completed 200 OK in 169ms (Views: 168.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks/index.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:37:03 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:54:49 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /collections/tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /views/tasks/tasks_index.js - 200 OK (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:54:50 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:55:01 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks/show.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:55:02 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks/edit.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /models/task.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:55:13 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 11:55:18 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled bootstrap-responsive.css  (0ms)  (pid 6453)
+Compiled bootstrap.css  (0ms)  (pid 6453)
+Compiled application.css  (9ms)  (pid 6453)
+Compiled routers/tasks_router.js  (50ms)  (pid 6453)
+Compiled bootstrap.min.js  (0ms)  (pid 6453)
+Compiled application.js  (12ms)  (pid 6453)
+Completed 200 OK in 271ms (Views: 270.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /bootstrap-responsive.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /backbone.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /tasks/task.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /routers/tasks_router.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /bootstrap.min.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:41 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:42 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:29:42 +0530
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:29:42 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:30:18 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:30:19 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:30:55 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:31:49 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Compiled views/tasks/tasks_index.js  (5ms)  (pid 6453)
+Compiled application.js  (8ms)  (pid 6453)
+Completed 200 OK in 168ms (Views: 167.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:31:49 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:31:49 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:31:49 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:31:49 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:31:49 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /backbone.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks/edit.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:31:50 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:32:17 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled views/tasks/tasks_index.js  (5ms)  (pid 6453)
+Compiled application.js  (7ms)  (pid 6453)
+Completed 200 OK in 168ms (Views: 168.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:32:17 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:32:17 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:32:17 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:32:17 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:32:18 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:32:59 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 134ms
+
+ActionView::Template::Error (Error: Parse error on line 6: Unexpected 'INDENT'
+  (in /home/webonise/Projects/my_dashboard/app/assets/javascripts/views/tasks/tasks_index.js.coffee)):
+    4:     <meta charset="utf-8">
+    5:     <title>MyDashboard</title>
+    6: 	<%= stylesheet_link_tag    "application", :media => "all" %>
+    7: 	<%= javascript_include_tag "application" %>
+    8: 	<%= csrf_meta_tags %>
+    9:   </head>
+    10: 
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1062491569360881781_69938073324440'
+
+
+  Rendered /home/webonise/.rvm/gems/ruby-1.9.3-p362@mydash/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/webonise/.rvm/gems/ruby-1.9.3-p362@mydash/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/webonise/.rvm/gems/ruby-1.9.3-p362@mydash/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled views/tasks/tasks_index.js  (10ms)  (pid 6453)
+Compiled application.js  (8ms)  (pid 6453)
+Completed 200 OK in 180ms (Views: 179.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /views/tasks/tasks_index.js - 200 OK (1ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:33:08 +0530
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:33:09 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Compiled routers/tasks_router.js  (12ms)  (pid 6453)
+Compiled application.js  (7ms)  (pid 6453)
+Completed 200 OK in 181ms (Views: 180.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks/edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /collections/tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /routers/tasks_router.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Served asset /application.js - 304 Not Modified (43ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:34:21 +0530
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks" [0m
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-21 12:35:18 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Compiled routers/tasks_router.js  (12ms)  (pid 6453)
+Compiled application.js  (7ms)  (pid 6453)
+Completed 200 OK in 216ms (Views: 215.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_dashboard.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /my_dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /backbone.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks/edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks/edit.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks/index.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks/index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/new.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks/new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/show.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks/show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/task.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /models/task.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /collections/tasks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/tasks/tasks_edit.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /views/tasks/tasks_edit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_index.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /views/tasks/tasks_index.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_new.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /views/tasks/tasks_new.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/tasks/tasks_show.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /views/tasks/tasks_show.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/routers/tasks_router.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /routers/tasks_router.js - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/api/tasks" for 127.0.0.1 at 2013-03-21 12:35:19 +0530
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" 
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
