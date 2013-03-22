@@ -1,0 +1,1 @@
+class MyDashboard.Views.TasksNew extends Backbone.View

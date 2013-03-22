@@ -1,0 +1,1 @@
+class MyDashboard.Views.TasksEdit extends Backbone.View

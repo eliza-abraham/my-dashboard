@@ -3,8 +3,7 @@ class MyDashboard.Views.TasksIndex extends Backbone.View
   template: JST['tasks/index']
 
   events: 
-  	"submit #new_task" : 'createTask'
-    # "submit #task_done" : ''
+  	"submit #new_task"   : 'createTask', "checked #task_done" : 'updateTask'
 
   initialize: ->
     @collection.on('reset',@render,this)
@@ -21,9 +20,17 @@ class MyDashboard.Views.TasksIndex extends Backbone.View
 
   createTask: (event) ->
     event.preventDefault()
-    attributes = {name: $('#new_task_name').val(), description: $('#new_task_description').val(), checked: false }
+    attributes = {name: $('#new_task_name').val(), description: $('#new_task_description').val() }
     @collection.create attributes,
       wait: true,
+      success: -> $('#new_task')[0].reset(),
+      error: @handleError
+
+  updateTask: (event) ->
+    event.preventDefault()
+    attribute = {checked: $(this).val() }
+    @collection.update attribute
+      wait: true
       success: -> $('#new_task')[0].reset(),
       error: @handleError
   
