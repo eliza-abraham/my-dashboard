@@ -1,6 +1,0 @@
-<td><%= @task.get("name") %></td>
-<td><%= @task.get("description") %></td>
-<td><%= @task.get("date") %></td>
-<td>
-  <input type="checkbox" id="task_checked" name="checked" value="<%= !@task.get("checked") %>" <%= "checked" if @task.get('checked')%>  >
-</td>

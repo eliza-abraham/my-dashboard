@@ -8,9 +8,10 @@
 
 <table class="table table" id="tasks">
   <tr>
+    <th></th>
     <th>Name</th>
     <th>Description</th>
     <th>Date</th>
-    <th></th>
+    <th>Action</th>
   </tr>
 </table>
