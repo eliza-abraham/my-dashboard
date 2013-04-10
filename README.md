@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-my-organiser
-=======
-my-dashboard
->>>>>>> f1547d501fc75696c34062b7aa01657a53ceee16
-============
+My ToDo List
+
+This app is a POC of how backbone js works along with Rails 

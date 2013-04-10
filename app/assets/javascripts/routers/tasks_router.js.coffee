@@ -2,7 +2,7 @@ class MyDashboard.Routers.Tasks extends Backbone.Router
 
   routes:
     ""              : "index"
-    "tasks/"        : "index"
+    "/tasks"        : "index"
     # "tasks/new"     : "new"
     # "tasks/:id"     : "show"
     # "tasks/:id/edit": "edit"
@@ -14,7 +14,7 @@ class MyDashboard.Routers.Tasks extends Backbone.Router
   index: ->
     view = new MyDashboard.Views.TasksIndex(collection: @collection)
     $('#container > .well').html(view.render().el)
-
+  
   # new: ->
   #   alert ("creating a new task")
   #   # view = new MyDashboard.Views.TasksNew(collection: @collection)

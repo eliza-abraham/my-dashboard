@@ -16,7 +16,7 @@ class MyDashboard.Views.TasksIndex extends Backbone.View
 
   appendTask: (task) ->
     view = new MyDashboard.Views.TasksShow(model: task)
-    $('table#tasks').append(view.render().el)
+    $('#tasks').append(view.render().el)
 
   createTask: (event) ->
     event.preventDefault()

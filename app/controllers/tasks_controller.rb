@@ -72,6 +72,7 @@ class TasksController < ApplicationController
   # DELETE /tasks/1
   # DELETE /tasks/1.json
   def destroy
+    logger.info "&"*100
     @task = Task.find(params[:id])
     @task.destroy
 

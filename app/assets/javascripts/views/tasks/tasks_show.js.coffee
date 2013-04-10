@@ -16,6 +16,7 @@ class MyDashboard.Views.TasksShow extends Backbone.View
     'click #delete_task'   : 'deleteTask'
 
   deleteTask: (event) -> 
+    console.log "delete task"
     event.preventDefault()
     answer = confirm("Are you sure you want to delete this element?");
     if(answer)

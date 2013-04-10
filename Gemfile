@@ -21,7 +21,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'jquery_datepicker'
 gem 'therubyracer'
 gem 'execjs'
 
@@ -29,8 +28,7 @@ gem 'haml'
 
 gem 'bootstrap'
 
-gem 'backbone-on-rails'
-gem 'devise'
+gem 'backbone-on-rails', '0.9.2.1'
 
 gem 'rails_best_practices'
 

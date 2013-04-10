@@ -1,10 +1,14 @@
 MyDashboard::Application.routes.draw do
+
   root :to => 'home#index'
 
-  # scope "api" do
-  resources :tasks
-  # end
+  # match "*path", :to => "lists#index"
 
+  resources :lists do
+    resources :tasks
+  end
+
+  resources :tasks
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
