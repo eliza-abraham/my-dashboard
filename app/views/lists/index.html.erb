@@ -1,0 +1,10 @@
+<div id="lists" data-lists="<%= @lists.to_json({:include => :tasks}).html_safe %>"></div>
+
+<script type="text/javascript">
+  $(function() {
+  	console.log("hello")
+    // Blog is the app name
+    window.router = new MyDashboard.Routers.Lists({lists: <%= @lists.to_json({:include => :tasks}).html_safe %>});
+    Backbone.history.start();
+  });
+</script>

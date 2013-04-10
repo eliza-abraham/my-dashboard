@@ -1,0 +1,1 @@
+class MyDashboard.Views.HomeIndex extends Backbone.View
