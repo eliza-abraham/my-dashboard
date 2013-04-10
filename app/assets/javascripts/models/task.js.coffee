@@ -1,4 +1,4 @@
-class MyDashboard.Models.Task extends Backbone.RelationalModel
+class MyDashboard.Models.Task extends Backbone.Model
   paramRoot: 'task'
 
   defaults: 
