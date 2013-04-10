@@ -3,7 +3,6 @@
 </td>
 <td><%= @task.get("name") %></td>
 <td><%= @task.get("description") %></td>
-<td><%= @task.get("date") %></td>
 <td>
   <a id="delete_task" class="btn btn-danger btn-small" href="#" rel="<%= @task.get('id') %>" >Delete</a>
 </td>
