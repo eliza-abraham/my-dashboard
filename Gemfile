@@ -29,6 +29,7 @@ gem 'haml'
 gem 'bootstrap'
 
 gem 'backbone-on-rails', '0.9.2.1'
+gem 'devise'
 
 gem 'rails_best_practices'
 
