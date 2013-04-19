@@ -1,39 +1,48 @@
-My ToDo List
+<h1>My ToDo List</h1>
 
-This is a simple app that demostrate a CRUD with Backbone JS and Rails. 
-
+<p>This is a simple app that demostrate a CRUD with Backbone JS and Rails. </p>
+<br/>
 ================================================================
-
-Getting Started
-
-To run this project run the following command on your terminals
-
-1. Clone the project from github:
-$ git clone git@github.com:eliza-abraham/my-dashboard.git
-
-2. Move to the project folder:
-$ cd my-dashboard
-
-3. Install the gems required for the project:
-$ bundle install
-
-4. Create your database.yaml file for your database setup which lies in /config
-
-5. Create your database:
-$ rake db:create
-
-6. Create all your tables by running the migrations
-$ rake db:migrate
-
-7. Run the server
-$ rails s <- If you are using the default rails server
-
-You can also view the running application on:
-http://my-dashboard.herokuapp.com/
-
-
+<br/>
+<h3>Getting Started</h3>
+<div>
+  <p>To run this project run the following command on your terminals</p>
+  <ul>
+    <li>
+      1. Clone the project from github:<br/>
+      $ git clone git@github.com:eliza-abraham/my-dashboard.git
+    </li>
+    <li>
+      2. Move to the project folder:<br>
+      $ cd my-dashboard
+    </li>
+    <li>
+      3. Install the gems required for the project:<br>
+      $ bundle install
+    </li>
+    <li>
+      4. Create your database.yaml file for your database setup which lies in /config
+    </li>
+    <li>
+      5. Create your database:<br>
+      $ rake db:create
+    </li>
+    <li>
+      6. Create all your tables by running the migrations<br>
+      $ rake db:migrate
+    </li>
+    <li>
+      7. Run the server<br>
+      $ rails s <- If you are using the default rails server
+    </li>
+  </ul>
+  <p>You can also view the running application on: 
+    <a href="http://my-dashboard.herokuapp.com/">my-dashboard.herokuapp.com/</a>
+  </p>
+</div>
+<br>
 ================================================================
-
+<br>
 Understanding Backbone while working on Rails.
 
 Backbone JS provides us with the benefit of working on the client side via Model Objects. This helps in un-tying our data from the DOM.
@@ -158,24 +167,23 @@ class MyDashboard.Views.TasksIndex extends Backbone.View
     if response.status == 422
       errors = response.responseText
       alert errors
-
+<br>
 ===============================================================
-
-References
-
-Backbone JS Documentation
-http://backbonejs.org/
-
-Examples & Tutorials: 
-
-Railscasts
-http://railscasts.com/episodes/323-backbone-on-rails-part-1
-http://railscasts.com/episodes/325-backbone-on-rails-part-2
-
-Github Demo's -
-
-CRUD in backbone + rails 3
-https://github.com/ikido/backbone-rails-crud-example-app
-
-TODO Demo
-https://github.com/mulderp/Backbone-on-Rails-todoDemo
+<br>
+<h3>References</h3>
+<ul>
+  <li><a href="http://backbonejs.org/">Backbone JS Documentation</a></li>
+  Examples & Tutorials:
+  <li>
+    Railscasts
+    <a href="http://railscasts.com/episodes/323-backbone-on-rails-part-1">Railscasts Part 1</a>
+    <a href="http://railscasts.com/episodes/325-backbone-on-rails-part-2">Railscasts Part 2</a>
+  </li>
+  Github Demo's -
+  <li>
+    <a href="https://github.com/ikido/backbone-rails-crud-example-app">CRUD in backbone + rails 3</a>    
+  </li>  
+  <li>
+    <a href="https://github.com/mulderp/Backbone-on-Rails-todoDemo">TODO Demo</a>
+  </li>
+</ul>
