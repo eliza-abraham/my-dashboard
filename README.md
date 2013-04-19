@@ -49,26 +49,22 @@
   <div>
     <h3>EVENTS</h3>
     <p>Everything in Backbone JS works on the basis of objects and the events bound to these objects.</p>
-    <p>Syntax:</p>
-    <p><object>.on(<event>, <callback>, <context>)</p>
-    <br>
-    <p>Example:</p>
-    <p>model.on('change', this.render, this)</p>
+    <p>Syntax: <object>.on(<event>, <callback>, <context>)</p>
+    <p>Example: model.on('change', this.render, this)</p>
   </div>
   <div>
     <h3>MODEL</h3>
     <p>It contains the logic and a set of functionality for managing changes. To create a model class we need to extend the Backbone.Model class </p>
-    <br>
-    <p>Example:</p>
-    <p>class MyDashboard.Models.Task extends Backbone.Model</p>
-    <p>defaults:</p> 
-    <p>checked: false</p>
+    <p>Example: class MyDashboard.Models.Task extends Backbone.Model</p>
+    <p>defaults: 
+      checked: false
+    </p>
   </div>
   <div>
     <h3>COLLECTION</h3>
     <p>Collections are an ordered set of models, as the name suggests a collection of models. When an event is triggered on the model, the event is triggered to the collection to which the model belongs to as well. To create a collection class we need to extend the Backbone.Collection class.</p>
-    <p>Example: </p>
-    <p>class MyDashboard.Collections.Tasks extends Backbone.Collection
+    <p>Example: 
+      class MyDashboard.Collections.Tasks extends Backbone.Collection
       url: '/tasks' # REST interface
       model: MyDashboard.Models.Task
     </p>
@@ -76,8 +72,7 @@
   <div>
     <h3>ROUTER</h3>
     <p>The router is a link between the events and the pages that need to be rendered. It provides methods to route pages and connects them to actions and events. To create a router class we need to extend the Backbone.Router</p>
-
-    Example:
+    <p>Example:
     class MyDashboard.Routers.Tasks extends Backbone.Router
 
       routes:
@@ -91,38 +86,36 @@
       index: ->
         view = new MyDashboard.Views.TasksIndex(collection: @collection)
         $('#container > .well').html(view.render().el)
+    </p>
   </div>
   <div>
     <h3>VIEW</h3>
     <p>As one may assume, the view has nothing to with HTML or CSS. It is more of a convention than code. It organises your interface into logical views backed by models. These views can be updated as and when some event occurs and changes are made to the model without having to re-render the entire page.</p>
     <br>
-
     Important objects and methods in views
+    <ul>
+      <li>el  => view.el
+        All views have a DOM element at all times (the el property). View can be rendered or inserted in to the dom  with this.  this.el is created from the tagName, className, id and attributes property.
+      </li>
+      <li>$el => view.$el
+        A cached jQuery object for the view's element. A handy reference instead of re-wrapping the DOM element all the time.
+      </li>
+      <li>render() => view.render()
+        It renders the view template from model data, and updates this.el with the new HTML
 
-    el  => view.el
-    All views have a DOM element at all times (the el property). View can be rendered or inserted in to the dom  with this.  this.el is created from the tagName, className, id and attributes property.
-
-
-    $el => view.$el
-    A cached jQuery object for the view's element. A handy reference instead of re-wrapping the DOM element all the time.
-
-
-    render() => view.render()
-    It renders the view template from model data, and updates this.el with the new HTML
-
-    render: function() {
-       this.$el.html(this.template(this.model.attributes));
-       return this;
-     }
-
-
-    @collection 
-    It is a collection of all the tasks passed on to the view from the router where all the tasks where fetched.
-
-
-    @model
-    It refers to the object on which the event occurs or changes take place on.
-
+        render: function() {
+          this.$el.html(this.template(this.model.attributes));
+          return this;
+        }
+      </li>
+      <li>@collection 
+        It is a collection of all the tasks passed on to the view from the router where all the tasks where fetched.
+      </li>
+      <li>
+        @model
+        It refers to the object on which the event occurs or changes take place on.
+      </li>
+    </ul>
 
     Example:
     class MyDashboard.Views.TasksIndex extends Backbone.View
@@ -164,7 +157,7 @@
 <ul>
   <li><a href="http://backbonejs.org/">Backbone JS Documentation</a></li>
   <li>
-    Railscasts
+    Railscasts<br>
     <a href="http://railscasts.com/episodes/323-backbone-on-rails-part-1">Railscasts Part 1</a><br>
     <a href="http://railscasts.com/episodes/325-backbone-on-rails-part-2">Railscasts Part 2</a>
   </li>
