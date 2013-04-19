@@ -1,6 +1,6 @@
 <h1>My ToDo List</h1>
 
-<p>This is a simple app that demostrate a CRUD with Backbone JS and Rails. </p>
+<p>This is a simple app that demostrates a CRUD with Backbone JS and Rails. </p>
 <hr>
 <h3>Getting Started</h3>
 <div>
