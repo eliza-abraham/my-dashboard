@@ -1,9 +1,7 @@
 <h1>My ToDo List</h1>
 
 <p>This is a simple app that demostrate a CRUD with Backbone JS and Rails. </p>
-<br/>
-================================================================
-<br/>
+<hr>
 <h3>Getting Started</h3>
 <div>
   <p>To run this project run the following command on your terminals</p>
@@ -40,8 +38,6 @@
     <a href="http://my-dashboard.herokuapp.com/">my-dashboard.herokuapp.com/</a>
   </p>
 </div>
-<br>
-================================================================
 <br>
 Understanding Backbone while working on Rails.
 
@@ -167,8 +163,6 @@ class MyDashboard.Views.TasksIndex extends Backbone.View
     if response.status == 422
       errors = response.responseText
       alert errors
-<br>
-===============================================================
 <br>
 <h3>References</h3>
 <ul>
