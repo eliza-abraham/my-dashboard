@@ -173,13 +173,11 @@ class MyDashboard.Views.TasksIndex extends Backbone.View
 <h3>References</h3>
 <ul>
   <li><a href="http://backbonejs.org/">Backbone JS Documentation</a></li>
-  Examples & Tutorials:
   <li>
     Railscasts
-    <a href="http://railscasts.com/episodes/323-backbone-on-rails-part-1">Railscasts Part 1</a>
+    <a href="http://railscasts.com/episodes/323-backbone-on-rails-part-1">Railscasts Part 1</a><br>
     <a href="http://railscasts.com/episodes/325-backbone-on-rails-part-2">Railscasts Part 2</a>
   </li>
-  Github Demo's -
   <li>
     <a href="https://github.com/ikido/backbone-rails-crud-example-app">CRUD in backbone + rails 3</a>    
   </li>  
